@@ -11,7 +11,7 @@ public class program
             username=Console.ReadLine();
             Console.WriteLine("Mot de passe:");
             password=Console.ReadLine();
-            if(username=="admin" && password=="admin")
+            if(username=="admin" && password=="123456")
             {
                 Console.WriteLine("Connexion réussie!");
                 break;
@@ -25,3 +25,4 @@ public class program
 
     }
 }
+
